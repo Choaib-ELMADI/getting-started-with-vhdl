@@ -23,3 +23,12 @@ The process of running VHDL code involves several steps:
 ![VHDL Processing](./Images/vhdl-processing.png)
 
 </div>
+
+## Install VHDL Simulator:
+
+To run and simulate VHDL code, you will need a VHDL simulator. Below are links to two popular simulators:
+
+- ModelSim (Intel FPGAs Standard Edition): [Download here](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
+- Questa (Intel FPGAs Standard Edition): [Download here](https://www.intel.com/content/www/us/en/software-kit/825312/questa-intel-fpgas-standard-edition-software-version-23-1-1.html)
+
+Follow the provided links to download and install the appropriate VHDL simulator for your system.
