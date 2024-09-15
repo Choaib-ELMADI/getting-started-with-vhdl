@@ -1,0 +1,12 @@
+>> entity: The entity defines the inputs and the outputs for a module.
+└─► associated with: end entity;
+
+>> architecture: The architecture contains most of our logic code, and it consists of one or more processes.
+└─► associated with: end architecture;
+
+>> process: Processes are the basic building blocks of an architecture. The code they contain is executed sequentially.
+└─► associated with: end process;
+
+>> report: Used to print messages to the simulator terminal.
+
+>> wait: Stop the execution of a process.

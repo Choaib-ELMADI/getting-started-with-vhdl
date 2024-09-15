@@ -1,0 +1,9 @@
+->> Parallel Programming Language:
+    * In a physical hardware circuit, different components can be active and performing operations at the same time.
+    * VHDL reflects this behavior by allowing multiple processes to run in parallel, unlike in traditional programming languages, where instructions are executed sequentially.
+
+->> Event-Driven:
+    * VHDL being event-driven means that the execution of its processes is triggered by changes or events on signals.
+    * In this context, VHDL processes don't continuously run like loops in sequential programming; instead, they only run when something important happens.
+    * Each process in VHDL can have a sensitivity list that defines the signals it should "watch".
+    * VHDL simulation works in terms of "delta cycles", where time is divided into tiny, discrete steps, and during each step, events are evaluated.
