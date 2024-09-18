@@ -1,7 +1,0 @@
-{C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/HelloWorld/hello_world_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/HelloWorld/hello_world_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Compiling entity hello_world_tb
--- Compiling architecture sim of hello_world_tb
-
-} {} {}}

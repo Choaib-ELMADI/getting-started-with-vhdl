@@ -1,4 +1,4 @@
->> vsim -gui work.module_name.tb: 
+>> vsim -gui work.module_name.tb: Launch a simulation session for the VHDL testbench module_name in the work library.
 
 >> quit -sim: 
 
