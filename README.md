@@ -20,7 +20,7 @@ The process of running VHDL code involves several steps:
 
 <div align="center">
 
-![VHDL Processing](./Images/vhdl-processing.png)
+![VHDL Processing](./Images/vhdl-workflow.png)
 
 </div>
 
