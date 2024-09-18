@@ -1,8 +1,14 @@
->> entity: The entity defines the inputs and the outputs for a module.
+>> entity: The entity defines the inputs and the outputs for a module (ports and generics).
 └─► associated with: end entity;
+
+>> is: The keyword "is" is used to introduce the detailed implementation or definition of an entity or an architecture.
 
 >> architecture: The architecture contains most of our logic code, and it consists of one or more processes.
 └─► associated with: end architecture;
+
+>> begin: The begin keyword is used to start the executable part of a VHDL code.
+
+>> end: The end keyword marks the conclusion of the current block or structure.
 
 >> process: Processes are the basic building blocks of an architecture. The code they contain is executed sequentially.
 └─► associated with: end process;

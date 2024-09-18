@@ -7,3 +7,6 @@
     * In this context, VHDL processes don't continuously run like loops in sequential programming; instead, they only run when something important happens.
     * Each process in VHDL can have a sensitivity list that defines the signals it should "watch".
     * VHDL simulation works in terms of "delta cycles", where time is divided into tiny, discrete steps, and during each step, events are evaluated.
+
+->> In VHDL, every entity must be associated with one or more architectures. The architecture describes the internal behavior and structure of the entity:
+    * architecture architecture_name of entity_name is...

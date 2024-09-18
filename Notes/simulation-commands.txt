@@ -1,3 +1,7 @@
+>> vsim -gui work.module_name.tb: 
+
+>> quit -sim: 
+
 >> run: 
 
 >> restart: 
