@@ -15,4 +15,6 @@
 
 >> report: Used to print messages to the simulator terminal.
 
->> wait: Stop the execution of a process.
+>> wait: Stop the execution of a process indefinitely.
+
+>> wait for <time_value> <time_unit>: Delay the execution of a program for any amount of time.

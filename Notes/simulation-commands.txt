@@ -1,9 +1,11 @@
->> vsim -gui work.module_name.tb: Launch a simulation session for the VHDL testbench module_name in the work library.
+>> vcom {absolute_path_to_vhdl_file}: Compile the specified VHDL file. The path has this structure: C:/Users/Choaib ELMADI/module_name.vhd
 
->> quit -sim: 
+>> vsim -gui work.module_name: Launch a simulation session for the VHDL testbench module_name in the work library.
 
->> run: 
+>> run: Run the simulation.
 
->> restart: 
+>> quit -sim: Quit the simulation.
 
->> quit: 
+>> restart: Reset and restart the simulation.
+
+>> quit: Quit ModelSim application.
