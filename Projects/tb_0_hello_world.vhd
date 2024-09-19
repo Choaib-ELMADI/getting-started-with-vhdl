@@ -7,7 +7,7 @@ begin
     process is
     begin
 
-        report "Hello, World! YEAAAH";
+        report "Hello, World! This is a testbench!!";
         wait;
 
     end process;
