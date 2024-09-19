@@ -1,7 +1,7 @@
-entity tb_1_wait_for is
+entity tb_01_wait_for is
 end entity;
 
-architecture sim of tb_1_wait_for is
+architecture sim of tb_01_wait_for is
 begin
 
     process is
