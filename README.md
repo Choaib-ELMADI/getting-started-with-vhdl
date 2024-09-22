@@ -24,11 +24,23 @@ The process of running VHDL code involves several steps:
 
 </div>
 
-## Install VHDL Simulator:
+## Used Tools:
 
-To run and simulate VHDL code, you will need a VHDL simulator. Below are links to two popular simulators:
+To run and simulate VHDL code, you will need the following tools. Below are links to install them:
 
-- ModelSim (Intel FPGAs Standard Edition): [Download here](https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html)
-- Questa (Intel FPGAs Standard Edition): [Download here](https://www.intel.com/content/www/us/en/software-kit/825312/questa-intel-fpgas-standard-edition-software-version-23-1-1.html)
+- **ModelSim:** A logic simulation tool - [Download link](https://www.intel.com/content/www/us/en/software-kit/660907/intel-quartus-prime-lite-edition-design-software-version-20-1-1-for-windows.html):
 
-Follow the provided links to download and install the appropriate VHDL simulator for your system.
+  - Select: **Individual Files**
+  - Under **Intel® Quartus® Software**, download: **ModelSim-Intel® FPGA Edition (includes Starter Edition)**
+
+- **Quartus Prime Lite:** An FPGA synthesis / implementation tool - [Download link](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html):
+
+  - Select: **Individual Files**
+  - Under **Intel® Quartus® Software**, download: **Quartus® Prime (includes Nios II EDS)**
+
+- **MAX10 Device Files:** MAX10 FPGA device information - [Download link](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html):
+
+  - Select: **Individual Files**
+  - Under **Devices**, download: **MAX® 10 FPGA device support**
+
+Place all the downloaded files in the same directory, then launch `Quartus Prime Lite` and `ModelSim` to begin your workflow.
