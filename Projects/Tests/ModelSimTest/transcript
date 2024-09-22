@@ -1,0 +1,81 @@
+# Compile of top.vhd failed with 1 errors.
+
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSimTest/top.vhd}
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+
+# -- Loading package STANDARD
+
+# -- Compiling entity top
+
+# \*\* Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSimTest/top.vhd(5): near ")": (vcom-1576) expecting IDENTIFIER.
+
+#
+
+#
+
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSimTest/top.vhd}
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+
+# -- Loading package STANDARD
+
+# -- Compiling entity top
+
+# -- Compiling architecture sim of top
+
+#
+
+#
+
+# Error attempted to pushdown all children on .main_pane.cs.9 mode is tabbed children are paneframes 1
+
+# Saving layout as "MyLayout"
+
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSimTest/top.vhd}
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+
+# -- Loading package STANDARD
+
+# -- Compiling entity top
+
+# -- Compiling architecture top_sim of top
+
+#
+
+#
+
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSimTest/top_tb.vhd}
+
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+
+# -- Loading package STANDARD
+
+# -- Compiling entity top_tb
+
+# -- Compiling architecture top_tb_sim of top_tb
+
+#
+
+#
+
+vsim work.top_tb
+
+# vsim work.top_tb
+
+# Start time: 16:25:38 on Sep 22,2024
+
+# Loading std.standard
+
+# Loading work.top_tb(top_tb_sim)
+
+# Loading work.top(top_sim)
+
+add wave sim:/top_tb/\*
+run
+quit -sim
+
+# End time: 16:31:01 on Sep 22,2024, Elapsed time: 0:05:23
+
+# Errors: 0, Warnings: 11

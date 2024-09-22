@@ -1,0 +1,18 @@
+entity top is
+    port (
+        A: in  bit;
+        F: out bit
+    );
+end entity;
+
+architecture sim of top is
+begin
+
+    -- process is
+    -- begin
+	
+	F <= not A;
+
+    -- end process;
+
+end architecture;
