@@ -1,0 +1,63 @@
+# Compile of hald_adder.vhd failed with 2 errors.
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/hald_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity half_adder
+# -- Compiling architecture sim of half_adder
+# ** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/hald_adder.vhd(12): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/hald_adder.vhd(12): Type error resolving infix expression "+" as type std.STANDARD.BIT.
+# ** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/hald_adder.vhd(14): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/hald_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity half_adder
+# -- Compiling architecture sim of half_adder
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/half_adder_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity half_adder_tb
+# -- Compiling architecture tb_sim of half_adder_tb
+# 
+# 
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 20:37:49 on Sep 23,2024
+# Loading std.standard
+# Loading work.half_adder_tb(tb_sim)
+# Loading work.half_adder(sim)
+add wave sim:/half_adder_tb/*
+run
+quit -sim
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/HALFADDER.mpf).  File can not be renamed.
+# End time: 20:40:23 on Sep 23,2024, Elapsed time: 0:02:34
+# Errors: 1, Warnings: 10
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/HalfAdder/half_adder_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity half_adder_tb
+# -- Compiling architecture tb_sim of half_adder_tb
+# 
+# 
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 20:40:41 on Sep 23,2024
+# Loading std.standard
+# Loading work.half_adder_tb(tb_sim)
+# Loading work.half_adder(sim)
+add wave -r /*
+add wave sim:/half_adder_tb/*
+add wave -r /*
+add wave  \
+sim:/half_adder_tb/a_tb \
+sim:/half_adder_tb/b_tb \
+sim:/half_adder_tb/s_tb
+run
+quit -sim
+# End time: 20:42:33 on Sep 23,2024, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 2
