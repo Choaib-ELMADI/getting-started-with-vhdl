@@ -34,3 +34,6 @@
 >> integer'image(number):
     > This function is part of the standard VHDL "std.standard" package.
     > It converts an integer (number, in this case) into its string representation.
+
+>> while <condition> loop: This will continue to iterate over the enclosed code as long as the <condition> evaluates to true.
+└─► associated with: end loop;

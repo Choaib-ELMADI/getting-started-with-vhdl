@@ -1,2 +1,18 @@
-<> --: Create one line comments
-<> &: Bitwise and - String concatenation
+--       : Create one line comments
+&        : String concatenation
+
+not a    : true if a is false
+a and b  : true if a and b are true
+a or b   : true if a or b are true
+a nand b : true if a or b is false
+a nor b  : true if a and b are false
+a xor b  : true if exactly one of a or b is true
+a xnor b : true if a and b are equal
+
+=        : Equal
+/=	     : Not equal
+<        : Less than
+<=	     : Less than or equal - Assignment operator
+>        : Greater than
+>=	     : Greater than or equal
+**       : Power
