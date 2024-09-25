@@ -1,0 +1,114 @@
+# Compile of for_loop_tb.vhd failed with 1 errors.
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/for loop/for_loop_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity for_loop_tb
+# -- Compiling architecture sim of for_loop_tb
+# ** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/for loop/for_loop_tb.vhd(12): near "wait": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/for loop/for_loop_tb.vhd(18): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/for loop/for_loop_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity for_loop_tb
+# -- Compiling architecture sim of for_loop_tb
+# 
+# 
+vsim -gui work.for_loop_tb
+# vsim -gui work.for_loop_tb 
+# Start time: 13:58:38 on Sep 25,2024
+# Loading std.standard
+# Loading work.for_loop_tb(sim)
+run
+# ** Note: Hi, I am number 0
+#    Time: 0 ps  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 1
+#    Time: 400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 2
+#    Time: 800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 3
+#    Time: 1200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 4
+#    Time: 1600 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 5
+#    Time: 2 sec  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 6
+#    Time: 2400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 7
+#    Time: 2800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 8
+#    Time: 3200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 9
+#    Time: 3600 ms  Iteration: 0  Instance: /for_loop_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: Hi, I am number 0
+#    Time: 0 ps  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 1
+#    Time: 400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 2
+#    Time: 800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 3
+#    Time: 1200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 4
+#    Time: 1600 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 5
+#    Time: 2 sec  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 6
+#    Time: 2400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 7
+#    Time: 2800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 8
+#    Time: 3200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 9
+#    Time: 3600 ms  Iteration: 0  Instance: /for_loop_tb
+restart
+run
+# ** Note: Hi, I am number 0
+#    Time: 0 ps  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 1
+#    Time: 400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 2
+#    Time: 800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 3
+#    Time: 1200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 4
+#    Time: 1600 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 5
+#    Time: 2 sec  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 6
+#    Time: 2400 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 7
+#    Time: 2800 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 8
+#    Time: 3200 ms  Iteration: 0  Instance: /for_loop_tb
+# ** Note: Hi, I am number 9
+#    Time: 3600 ms  Iteration: 0  Instance: /for_loop_tb
+set PrefMain(LinePrefix) {# ==>}
+# ==>
+restart
+run
+# ==>** Note: Hi, I am number 0
+# ==>   Time: 0 ps  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 1
+# ==>   Time: 400 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 2
+# ==>   Time: 800 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 3
+# ==>   Time: 1200 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 4
+# ==>   Time: 1600 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 5
+# ==>   Time: 2 sec  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 6
+# ==>   Time: 2400 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 7
+# ==>   Time: 2800 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 8
+# ==>   Time: 3200 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>** Note: Hi, I am number 9
+# ==>   Time: 3600 ms  Iteration: 0  Instance: /for_loop_tb
+# ==>End time: 14:02:03 on Sep 25,2024, Elapsed time: 0:03:25
+# ==>Errors: 0, Warnings: 1

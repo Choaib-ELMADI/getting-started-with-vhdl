@@ -23,3 +23,10 @@
 └─► associated with: end loop;
 
 >> exit: Immediately terminate a loop before it naturally completes.
+
+>> for <c> in <r> loop: <c> is an arbitrary name that will be available inside of the loop. <r> is a range of integers or enumerated values to iterate over.
+└─► associated with: end loop;
+└─► 0 to 9: incrementing range including all 10 numbers from 0 to 9
+└─► 9 downto 0: decrementing range including all 10 numbers from 9 to 0
+└─► 0 to 0: range including only the number 0
+└─► 0 to -1: empty range

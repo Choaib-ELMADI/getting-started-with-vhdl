@@ -10,3 +10,5 @@
 
 ->> In VHDL, every entity must be associated with one or more architectures. The architecture describes the internal behavior and structure of the entity:
     * architecture architecture_name of entity_name is...
+
+->> 
