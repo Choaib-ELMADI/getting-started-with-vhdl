@@ -1,0 +1,253 @@
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd(5): near "sig": (vcom-1576) expecting BEGIN.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd(5): near "sig": (vcom-1576) expecting BEGIN.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd(5): near "sig": (vcom-1576) expecting BEGIN.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd(5): near "sig": (vcom-1576) expecting BEGIN.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+
+
+vsim -gui work.signal_vs_variable_tb
+vsim -gui work.signal_vs_variable_tb 
+Start time: 13:56:36 on Sep 26,2024
+Loading std.standard
+Loading work.signal_vs_variable_tb(sim)
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+GetModuleFileName: The specified module could not be found.
+
+
+** Note: .......... Process started ..........
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 0, sig = 0
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+restart
+run
+GetModuleFileName: The specified module could not be found.
+
+
+** Note: .......... Process started ..........
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 0, sig = 0
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 1, sig = 1
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 2, sig = 2
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 3, sig = 3
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 4, sig = 4
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 5, sig = 5
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 6, sig = 6
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 7, sig = 7
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 8, sig = 8
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 9, sig = 9
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 10, sig = 10
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+quit -sim
+End time: 13:59:08 on Sep 26,2024, Elapsed time: 0:02:32
+Errors: 0, Warnings: 1
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/signal vs variable/signal_vs_variable_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity signal_vs_variable_tb
+-- Compiling architecture sim of signal_vs_variable_tb
+
+
+vsim -gui work.signal_vs_variable_tb
+vsim -gui work.signal_vs_variable_tb 
+Start time: 13:59:25 on Sep 26,2024
+Loading std.standard
+Loading work.signal_vs_variable_tb(sim)
+run
+** Note: 
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 1, sig = 0
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 0 ps  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 2, sig = 1
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 10 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 3, sig = 2
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 20 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 4, sig = 3
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 30 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 5, sig = 4
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 40 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 6, sig = 5
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 50 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 7, sig = 6
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 60 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 8, sig = 7
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 70 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 9, sig = 8
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 80 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 10, sig = 9
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 90 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: .......... Process started ..........
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: var = 11, sig = 10
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+** Note: 
+   Time: 100 ns  Iteration: 0  Instance: /signal_vs_variable_tb
+End time: 14:01:30 on Sep 26,2024, Elapsed time: 0:02:05
+Errors: 0, Warnings: 2
