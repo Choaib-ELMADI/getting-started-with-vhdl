@@ -12,7 +12,8 @@ a xnor b : true if a and b are equal
 =        : Equal
 /=	     : Not equal
 <        : Less than
-<=	     : Less than or equal - Assignment operator
+<=	     : Less than or equal - Signal assignment operator
+:=       : Variable assignment operator
 >        : Greater than
 >=	     : Greater than or equal
 **       : Power
