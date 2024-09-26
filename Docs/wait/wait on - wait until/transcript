@@ -1,62 +1,61 @@
-Compile of wait_on_wait_until_tb.vhd was successful.
-vsim -gui work.wait_on_wait_until_tb
-vsim -gui work.wait_on_wait_until_tb 
-Start time: 22:59:45 on Sep 26,2024
+Compile of if_then_elsif_else_tb.vhd was successful.
+vsim -gui work.if_then_elsif_else_tb
+vsim -gui work.if_then_elsif_else_tb 
+Start time: 23:22:40 on Sep 26,2024
 Loading std.standard
-Loading work.wait_on_wait_until_tb(sim)
+Loading work.if_then_elsif_else_tb(sim)
 run
-** Note: up = 1, down = 9
-   Time: 0 ps  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 2, down = 8
-   Time: 10 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 3, down = 7
-   Time: 20 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 4, down = 6
-   Time: 30 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 5, down = 5
-   Time: 40 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 6, down = 4
-   Time: 50 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 7, down = 3
-   Time: 60 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 8, down = 2
-   Time: 70 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 9, down = 1
-   Time: 80 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 10, down = 0
-   Time: 90 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 11, down = -1
-   Time: 100 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-Compile of wait_on_wait_until_tb.vhd failed with 1 errors.
-Compile of wait_on_wait_until_tb.vhd was successful.
+** Note: DOWN is larger.
+   Time: 0 ps  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 10 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 20 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 30 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP = DOWN
+   Time: 40 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 50 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 60 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 70 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 80 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 90 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 100 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+Compile of if_then_elsif_else_tb.vhd was successful.
 restart
 ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-Loading work.wait_on_wait_until_tb(sim)
+Loading work.if_then_elsif_else_tb(sim)
 run
 GetModuleFileName: The specified module could not be found.
 
 
-** Note: up = 1, down = 9
-   Time: 0 ps  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 2, down = 8
-   Time: 10 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 3, down = 7
-   Time: 20 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 4, down = 6
-   Time: 30 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 5, down = 5
-   Time: 40 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: THIS IS MAGIC!!!!
-   Time: 40 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 6, down = 4
-   Time: 50 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 7, down = 3
-   Time: 60 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 8, down = 2
-   Time: 70 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 9, down = 1
-   Time: 80 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 10, down = 0
-   Time: 90 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
-** Note: up = 11, down = -1
-   Time: 100 ns  Iteration: 1  Instance: /wait_on_wait_until_tb
+** Note: DOWN is larger.
+   Time: 0 ps  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 10 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 20 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: DOWN is larger.
+   Time: 30 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP = DOWN
+   Time: 40 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 50 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 60 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 70 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 80 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 90 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+** Note: UP is larger.
+   Time: 100 ns  Iteration: 1  Instance: /if_then_elsif_else_tb
+End time: 23:24:10 on Sep 26,2024, Elapsed time: 0:01:30
+Errors: 0, Warnings: 1
