@@ -14,3 +14,5 @@
 
 -> The "left" attribute returns the index of the leftmost bit in a std_logic_vector.
 -> The "right" attribute returns the index of the rightmost bit in a std_logic_vector.
+-> The "range" attribute returns the range of indices in a std_logic_vector.
+-> The "length" attribute returns the total number of elements in a std_logic_vector.
