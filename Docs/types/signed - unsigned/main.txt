@@ -1,0 +1,4 @@
+-> "signed" and "unsigned" are predefined types used for representing binary numbers with different interpretations, extending the behavior of the std_logic_vector type for arithmetic operations.
+-> "unsigned" represents a binary number that is always non-negative (positive or zero).
+-> "signed" represents a signed binary number, using two's complement to represent positive and negative values.
+-> "signed" interprets the most significant bit (MSB) as the sign bit. If the MSB is 1, the number is negative; if it's 0, the number is positive.
