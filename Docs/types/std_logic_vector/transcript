@@ -1,0 +1,160 @@
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+vsim -gui work.std_logic_vector_tb
+vsim -gui work.std_logic_vector_tb 
+Start time: 15:16:31 on Sep 28,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading work.std_logic_vector_tb(sim)
+add wave  \
+sim:/std_logic_vector_tb/slv_1 \
+sim:/std_logic_vector_tb/slv_2 \
+sim:/std_logic_vector_tb/slv_3 \
+sim:/std_logic_vector_tb/slv_4 \
+sim:/std_logic_vector_tb/slv_5 \
+sim:/std_logic_vector_tb/slv_6
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/std_logic_vector_tb/slv_6 \
+sim:/std_logic_vector_tb/slv_7
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/std_logic_vector_tb/slv_8
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+run
+GetModuleFileName: The specified module could not be found.
+
+
+restart
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+** Error (suppressible): C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd(15): (vcom-1272) Length of expected is 11; length of actual is 8.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd(30): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/std_logic_vector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity std_logic_vector_tb
+-- Compiling architecture sim of std_logic_vector_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.std_logic_vector_tb(sim)
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vsim -quit
+** UI-Msg: (vish-3296) Unknown option '-quit'.
+Use the -help option for complete vsim usage.
+Error loading design
+vsim quit
+End time: 16:01:09 on Sep 28,2024, Elapsed time: 0:44:38
+Errors: 0, Warnings: 1
+vsim quit 
+Start time: 16:01:09 on Sep 28,2024
+** Error: (vsim-3170) Could not find 'quit'.
+        Searched libraries:
+            C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/types/std_logic_vector/work
+Error loading design
+End time: 16:01:10 on Sep 28,2024, Elapsed time: 0:00:01
+Errors: 1, Warnings: 1

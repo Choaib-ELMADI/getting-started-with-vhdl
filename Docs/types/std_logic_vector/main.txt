@@ -1,0 +1,16 @@
+-> The std_logic_vector type can be used for creating signal buses in VHDL.
+-> The std_logic is the most commonly used type in VHDL, and the std_logic_vector is the array version of it.
+-> std_logic_vector is a composite type, which means that it's a collection of subelements.
+
+-> The syntax for declaring std_logic_vector signals is:
+    signal <name>: std_logic_vector(<lsb> to <msb>) := <initial_value>;
+    or
+    signal <name>: std_logic_vector(<msb> downto <lsb>) := <initial_value>;
+
+-> From an external perspective, both (<lsb> to <msb>) and (<msb> downto <lsb>) define a range of bits in a vector. These two formats can hold the same values and have the same size, so their overall behavior appears the same.
+-> However, when accessing individual bits, the difference in indexing becomes apparent:
+    * msb downto lsb: Bit 0 corresponds to the least significant bit (LSB), and the largest index corresponds to the most significant bit (MSB).
+    * lsb to msb: Bit 0 corresponds to the most significant bit (MSB), and the largest index corresponds to the least significant bit (LSB).
+
+-> The "left" attribute returns the index of the leftmost bit in a std_logic_vector.
+-> The "right" attribute returns the index of the rightmost bit in a std_logic_vector.
