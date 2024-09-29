@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity case_when_tb is
+end entity;
+
+architecture sim of case_when_tb is
+    signal my_input  : unsigned(1 downto 0) := (others => '0');
+    signal my_output : std_logic_vector(3 downto 0);
+begin
+
+    process is
+    begin
+
+        wait for 25 ns;
+        my_input <= my_input + 1;
+
+    end process;
+
+    process(my_input) is
+    begin
+
+        case my_input is
+            when "00"   => my_output <= "0001";
+            when "01"   => my_output <= "0010";
+            when "10"   => my_output <= "0100";
+            when "11"   => my_output <= "1000";
+            when others => my_output <= (others => '0');
+        end case;
+
+    end process;
+
+end architecture;
