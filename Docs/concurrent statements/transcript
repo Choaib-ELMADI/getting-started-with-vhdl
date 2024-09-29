@@ -1,0 +1,187 @@
+vsim -gui work.concurrent_statements_tb
+vsim -gui work.concurrent_statements_tb 
+Start time: 16:00:00 on Sep 29,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.concurrent_statements_tb(sim)
+run
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/concurrent_statements_tb/uns_1 \
+sim:/concurrent_statements_tb/uns_2
+restart
+run
+GetModuleFileName: The specified module could not be found.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(23): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(28): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(23): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(28): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(23): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(28): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(23): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(28): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(23): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(28): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(31): near "uns_2": syntax error
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd(35): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/concurrent statements/concurrent_statements_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concurrent_statements_tb
+-- Compiling architecture sim of concurrent_statements_tb
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.concurrent_statements_tb(sim)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/concurrent_statements_tb/uns_1 \
+sim:/concurrent_statements_tb/mult_1 \
+sim:/concurrent_statements_tb/mult_2 \
+sim:/concurrent_statements_tb/mult_3
+run
+GetModuleFileName: The specified module could not be found.
+
+

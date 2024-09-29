@@ -29,3 +29,8 @@
     * Variables declared within a process are only accessible within that process and have local scope.
     * Variable changes immediately occur in the current simulation cycle.
     * We assign a value to a variable using this operator ":=".
+
+->> Concurrent statements:
+    * A concurrent statement in VHDL is a way to assign values to signals outside of a process, directly within the architecture.
+    * It runs in parallel with other operations.
+    * Instead of writing a full process block with a sensitivity list, you can just write the signal assignment directly.
