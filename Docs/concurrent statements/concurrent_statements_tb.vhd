@@ -15,21 +15,21 @@ begin
     process is
     begin
 
-        uns_1 <= uns_1 + 1;
         wait for 10 ns;
+        uns_1 <= uns_1 + 1;
 
     end process;
 
-    -- THIS PROCESS GIVES AN ERROR
     process is
+    begin
 
         mult_1 <= uns_1 & "00";
         wait on uns_1;
 
     end process;
 
-    -- THIS PROCESS GIVES AN ERROR
     process(uns_1) is
+    begin
 
         mult_2 <= uns_1 & "00";
 
