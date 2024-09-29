@@ -1,0 +1,24 @@
+vsim -gui work.port_map_tb
+vsim -gui work.port_map_tb 
+Start time: 22:27:52 on Sep 29,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.port_map_tb(sim)
+Loading work.port_map(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/port_map_tb/in_1 \
+sim:/port_map_tb/in_2 \
+sim:/port_map_tb/in_3 \
+sim:/port_map_tb/in_4 \
+sim:/port_map_tb/sel \
+sim:/port_map_tb/out_1
+run
+restart
+run
+GetModuleFileName: The specified module could not be found.
+
+

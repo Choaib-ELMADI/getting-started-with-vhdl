@@ -1,1 +1,1 @@
-* RTL: Register Transfer Level
+* RTL: Register Transfer Level: Between transistor level and behavioral level
