@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Sep 29 22:52:36 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : multiplexer
+Top-level Entity Name : multiplexer
+Family : MAX 10
+Total logic elements : 16
+    Total combinational functions : 16
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
