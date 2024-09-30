@@ -1,0 +1,22 @@
+-> Generics allow parts of a module to be configurable at compile-time.
+
+-> Constants can be used for defining bit-widths and other fixed values but cannot change after compile-time.
+-> Syntax for declaring constants in VHDL:
+    constant <constant_name> : <type> := <value>;
+
+-> Generics allow constants to be passed into a module through the entity:
+    entity <entity_name> is
+        generic (
+            <entity_constant_name> : <type> [:= default_value];
+            ...
+        );
+    end entity;
+
+-> Instantiating a generic module:
+    <label> : entity <library_name>.<entity_name>(<architecture_name>)
+        generic map (
+            <entity_constant_name> => <value_or_constant>
+        )
+        port map (
+            <entity_signal_name> => <local_signal_name>
+        );
