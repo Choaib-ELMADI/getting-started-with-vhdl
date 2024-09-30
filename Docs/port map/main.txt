@@ -5,7 +5,26 @@
 
 -> The port map statement connects the inputs and outputs of a module to local signals or variables in the environment (testbench) where the module is instantiated.
 -> The syntax for instantiating a module in another VHDL file is:
-    <label>: entity <library_name>.<entity_name>(<architecture_name>) port map (
-        <entity_signal_name> => <local_signal_name>,
-        ...
-    );
+    * Explicit Instantiation:
+        <label>: entity <library_name>.<entity_name>(<architecture_name>) port map (
+            <entity_signal_name> => <local_signal_name>,
+            ...
+        );
+
+    * Direct Instantiation:
+        <label>: <entity_name> port map (
+            <entity_signal_name> => <local_signal_name>,
+            ...
+        );
+
+    * Component Instantiation:
+        component <entity_name>
+            port (
+                <port_list>
+            );
+        end component;
+
+        <label>: <entity_name> port map (
+            <entity_signal_name> => <local_signal_name>,
+            ...
+        );
