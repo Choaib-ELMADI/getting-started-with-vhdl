@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity port_map is
+entity mux is
     port (
         in_1   : in  unsigned(7 downto 0);
         in_2   : in  unsigned(7 downto 0);
@@ -15,7 +15,7 @@ entity port_map is
     );
 end entity;
 
-architecture rtl of port_map is
+architecture rtl of mux is
 begin
 
     process(sel, in_1, in_2, in_3, in_4) is

@@ -2,10 +2,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity port_map_tb is
+entity mux_tb is
 end entity;
 
-architecture sim of port_map_tb is
+architecture sim of mux_tb is
     signal in_1  : unsigned(7 downto 0) := x"AA";
     signal in_2  : unsigned(7 downto 0) := x"BB";
     signal in_3  : unsigned(7 downto 0) := x"CC";
@@ -16,8 +16,8 @@ architecture sim of port_map_tb is
     signal out_1 : unsigned(7 downto 0);
 begin
 
-    -- CREATE AN INSTANCE OF port_map WITH THE ARCHITECTURE rtl
-    i_port_map: entity work.port_map(rtl) port map (
+    -- CREATE AN INSTANCE OF mux WITH THE ARCHITECTURE rtl
+    i_mux: entity work.mux(rtl) port map (
         sel    => sel,
         in_1   => in_1,
         in_2   => in_2,

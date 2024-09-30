@@ -1,0 +1,63 @@
+Error opening C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map.vhd
+Path name 'C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map.vhd' doesn't exist.
+Error opening C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map.vhd
+Path name 'C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map.vhd' doesn't exist.
+Error opening C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map_tb.vhd
+Path name 'C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/port map/port_map_tb.vhd' doesn't exist.
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/instantiation/mux.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux
+-- Compiling architecture rtl of mux
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/instantiation/mux_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_tb
+-- Compiling architecture sim of mux_tb
+-- Loading entity mux
+
+
+vsim -gui work.mux_tb
+vsim -gui work.mux_tb 
+Start time: 07:31:23 on Sep 30,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.mux_tb(sim)
+Loading work.mux(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/mux_tb/in_1 \
+sim:/mux_tb/in_2 \
+sim:/mux_tb/in_3 \
+sim:/mux_tb/in_4 \
+sim:/mux_tb/sel \
+sim:/mux_tb/out_1
+** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+          File in use by: Choaib ELMADI  Hostname: CHOAIBS-PC  ProcessID: 11108
+          Attempting to use alternate WLF file "./wlftq8bwzq".
+** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+          Using alternate file: ./wlftq8bwzq
+run
+vsim quit
+End time: 07:33:00 on Sep 30,2024, Elapsed time: 0:01:37
+Errors: 0, Warnings: 10
+vsim quit 
+Start time: 07:33:00 on Sep 30,2024
+** Error: (vsim-3170) Could not find 'quit'.
+        Searched libraries:
+            C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Docs/instantiation/work
+Error loading design
+End time: 07:33:01 on Sep 30,2024, Elapsed time: 0:00:01
+Errors: 1, Warnings: 1
+quit
