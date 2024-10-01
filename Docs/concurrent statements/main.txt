@@ -1,0 +1,4 @@
+-> Concurrent statements:
+    * A concurrent statement in VHDL is a way to assign values to signals outside of a process, directly within the architecture.
+    * It runs in parallel with other operations.
+    * Instead of writing a full process block with a sensitivity list, you can just write the signal assignment directly.

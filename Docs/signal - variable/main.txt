@@ -1,0 +1,18 @@
+-> Signals in VHDL:
+    * The declarative part of an architecture lies between the "architecture <architecture_name> of <entity_name> is" and the "begin" statements.
+    * This section is used to declare signals.
+    * Signals declared here are available to all processes within the architecture.
+    * Signal changes are scheduled to occur in the next simulation cycle or at a specified time (if we delayed the execution).
+    * We assign a value to a signal using this operator "<=".
+
+-> Why signals behave like this?
+    * Signals in VHDL are analogous to wires in real hardware, which exhibit delays. The scheduled behavior models these delays.
+    * It ensures that all processes see the same values at the same simulation time, avoiding race conditions.
+    * VHDL's concurrent nature and event-driven simulation require signals to update in a predictable, scheduled manner for accurate hardware modeling.
+
+-> Variables in VHDL:
+    * The declarative part of a process is located between the "process is" and the "begin" statements.
+    * This section is used to declare variables.
+    * Variables declared within a process are only accessible within that process and have local scope.
+    * Variable changes immediately occur in the current simulation cycle.
+    * We assign a value to a variable using this operator ":=".

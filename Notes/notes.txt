@@ -9,28 +9,3 @@
     * All signals that are being read within a process must be on the sensitivity list.
     * Sensitivity list and "wait on" statement serve the same purposes.
     * VHDL simulation works in terms of "delta cycles", where time is divided into tiny, discrete steps, and during each step, events are evaluated.
-
-->> In VHDL, every entity must be associated with one or more architectures. The architecture describes the internal behavior and structure of the entity:
-    * architecture architecture_name of entity_name is...
-
-->> The declarative part of an architecture lies between the "architecture <architecture_name> of <entity_name> is" and the "begin" statements.
-    * This section is used to declare signals.
-    * Signals declared here are available to all processes within the architecture.
-    * Signal changes are scheduled to occur in the next simulation cycle or at a specified time (if we delayed the execution).
-    * We assign a value to a signal using this operator "<=".
-
-<<>> WHY SIGNALS BEHAVE LIKE THIS?
-    * Signals in VHDL are analogous to wires in real hardware, which exhibit delays. The scheduled behavior models these delays.
-    * It ensures that all processes see the same values at the same simulation time, avoiding race conditions.
-    * VHDL's concurrent nature and event-driven simulation require signals to update in a predictable, scheduled manner for accurate hardware modeling.
-
-->> The declarative part of a process is located between the "process is" and the "begin" statements.
-    * This section is used to declare variables.
-    * Variables declared within a process are only accessible within that process and have local scope.
-    * Variable changes immediately occur in the current simulation cycle.
-    * We assign a value to a variable using this operator ":=".
-
-->> Concurrent statements:
-    * A concurrent statement in VHDL is a way to assign values to signals outside of a process, directly within the architecture.
-    * It runs in parallel with other operations.
-    * Instead of writing a full process block with a sensitivity list, you can just write the signal assignment directly.

@@ -2,6 +2,7 @@
     * Modules are the basic building blocks of VHDL designs.
     * Each module is defined by the entity and the architecture blocks.
     * The entity specifies the module's input and output ports, while the architecture describes its internal behavior or structure.
+    * In VHDL, every entity must be associated with one or more architectures.
 
 -> The port map statement connects the inputs and outputs of a module to local signals or variables in the environment (testbench) where the module is instantiated.
 -> The syntax for instantiating a module in another VHDL file is:
