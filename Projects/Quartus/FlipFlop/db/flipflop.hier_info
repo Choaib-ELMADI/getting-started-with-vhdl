@@ -1,0 +1,7 @@
+|flipflop
+clk => my_output~reg0.CLK
+nRst => my_output.OUTPUTSELECT
+my_input => my_output.DATAB
+my_output <= my_output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

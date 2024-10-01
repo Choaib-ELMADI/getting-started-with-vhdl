@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "my_output",
+					"strict" : false
+				},
+				{
+					"name" : "nRst",
+					"strict" : false
+				},
+				{
+					"name" : "my_input",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
