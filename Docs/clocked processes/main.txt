@@ -1,0 +1,16 @@
+-> Clocked logic (also called synchronous or sequential logic) is triggered by a master clock signal, not by changes in other inputs.
+-> The basic building block of clocked logic is the flip-flop.
+-> Positive-edge-triggered flip-flops sample the input on the rising edge of the clock signal and hold the output stable until the next rising edge or reset.
+-> The sensitivity list for clocked processes typically only includes the clock signal, as the process is only triggered by clock edges.
+
+-> Template for a clocked process with synchronous reset:
+    process(clk) is
+    begin
+        if rising_edge(clk) then
+            if nRst = '0' then
+                <reset all output signals here>
+            else
+                <main logic here>
+            end if;
+        end if;
+    end process;
