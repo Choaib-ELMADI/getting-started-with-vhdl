@@ -1,0 +1,624 @@
+Analysis & Synthesis report for timer
+Wed Oct  2 18:55:42 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Inverted Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: Top-level Entity: |timer
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Oct  2 18:55:41 2024          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; timer                                          ;
+; Top-level Entity Name              ; timer                                          ;
+; Family                             ; MAX 10                                         ;
+; Total logic elements               ; 206                                            ;
+;     Total combinational functions  ; 206                                            ;
+;     Dedicated logic registers      ; 128                                            ;
+; Total registers                    ; 128                                            ;
+; Total pins                         ; 98                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
+; UFM blocks                         ; 0                                              ;
+; ADC blocks                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M50DAF484C6GES   ;                    ;
+; Top-level entity name                                            ; timer              ; timer              ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                      ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                               ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+; timer.vhd                        ; yes             ; User VHDL File  ; C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 206       ;
+;                                             ;           ;
+; Total combinational functions               ; 206       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 75        ;
+;     -- 3 input functions                    ; 4         ;
+;     -- <=2 input functions                  ; 127       ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 82        ;
+;     -- arithmetic mode                      ; 124       ;
+;                                             ;           ;
+; Total registers                             ; 128       ;
+;     -- Dedicated logic registers            ; 128       ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 98        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 128       ;
+; Total fan-out                               ; 1204      ;
+; Average fan-out                             ; 1.92      ;
++---------------------------------------------+-----------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; |timer                     ; 206 (206)           ; 128 (128)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 98   ; 0            ; 0          ; |timer              ; timer       ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 128   ;
+; Number of registers using Synchronous Clear  ; 96    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; periods[0]                             ; 2       ;
+; periods[31]                            ; 2       ;
+; Total number of inverted registers = 2 ;         ;
++----------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+; 3:1                ; 30 bits   ; 60 LEs        ; 30 LEs               ; 30 LEs                 ; Yes        ; |timer|periods[15]         ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |timer|seconds[15]~reg0    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |timer|minutes[30]~reg0    ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |timer|hours[30]~reg0      ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |timer|periods[0]          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |timer ;
++-----------------+-------+---------------------------------------------+
+; Parameter Name  ; Value ; Type                                        ;
++-----------------+-------+---------------------------------------------+
+; CLOCK_FREQUENCY ; 10    ; Signed Integer                              ;
++-----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 98                          ;
+; cycloneiii_ff         ; 128                         ;
+;     SCLR              ; 96                          ;
+;     plain             ; 32                          ;
+; cycloneiii_io_obuf    ; 96                          ;
+; cycloneiii_lcell_comb ; 206                         ;
+;     arith             ; 124                         ;
+;         2 data inputs ; 121                         ;
+;         3 data inputs ; 3                           ;
+;     normal            ; 82                          ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 75                          ;
+;                       ;                             ;
+; Max LUT depth         ; 8.10                        ;
+; Average LUT depth     ; 5.03                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+    Info: Processing started: Wed Oct  2 18:55:22 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off timer -c timer
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file timer.vhd
+    Info (12022): Found design unit 1: timer-rtl File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 16
+    Info (12023): Found entity 1: timer File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 5
+Info (12127): Elaborating entity "timer" for the top level hierarchy
+Warning (13034): The following nodes have both tri-state and non-tri-state drivers
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[0]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[1]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[2]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[3]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[4]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[5]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[6]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[7]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[8]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[9]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[10]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[11]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[12]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[13]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[14]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[15]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[16]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[17]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[18]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[19]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[20]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[21]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[22]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[23]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[24]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[25]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[26]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[27]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[28]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[29]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[30]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "seconds[31]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[0]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[1]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[2]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[3]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[4]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[5]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[6]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[7]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[8]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[9]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[10]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[11]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[12]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[13]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[14]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[15]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[16]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[17]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[18]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[19]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[20]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[21]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[22]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[23]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[24]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[25]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[26]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[27]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[28]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[29]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[30]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "minutes[31]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[0]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[1]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[2]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[3]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[4]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[5]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[6]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[7]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[8]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[9]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[10]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[11]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[12]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[13]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[14]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[15]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[16]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[17]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[18]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[19]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[20]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[21]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[22]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[23]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[24]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[25]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[26]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[27]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[28]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[29]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[30]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13035): Inserted always-enabled tri-state buffer between "hours[31]" and its non-tri-state driver. File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+Info (13060): One or more bidirectional pins are fed by always enabled tri-state buffers
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[0]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[1]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[2]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[3]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[4]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[5]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[6]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[7]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[8]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[9]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[10]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[11]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[12]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[13]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[14]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[15]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[16]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[17]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[18]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[19]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[20]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[21]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[22]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[23]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[24]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[25]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[26]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[27]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[28]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[29]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[30]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "seconds[31]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[0]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[1]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[2]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[3]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[4]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[5]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[6]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[7]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[8]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[9]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[10]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[11]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[12]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[13]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[14]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[15]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[16]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[17]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[18]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[19]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[20]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[21]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[22]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[23]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[24]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[25]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[26]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[27]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[28]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[29]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[30]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "minutes[31]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[0]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[1]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[2]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[3]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[4]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[5]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[6]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[7]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[8]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[9]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[10]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[11]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[12]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[13]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[14]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[15]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[16]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[17]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[18]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[19]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[20]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[21]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[22]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[23]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[24]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[25]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[26]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[27]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[28]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[29]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[30]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Info (13061): Fan-out of permanently enabled tri-state buffer feeding bidirectional pin "hours[31]" is moved to its source File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+Warning (13009): TRI or OPNDRN buffers permanently enabled
+    Warning (13010): Node "seconds[0]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[1]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[2]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[3]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[4]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[5]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[6]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[7]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[8]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[9]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[10]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[11]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[12]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[13]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[14]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[15]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[16]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[17]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[18]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[19]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[20]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[21]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[22]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[23]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[24]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[25]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[26]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[27]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[28]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[29]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[30]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "seconds[31]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[0]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[1]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[2]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[3]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[4]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[5]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[6]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[7]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[8]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[9]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[10]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[11]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[12]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[13]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[14]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[15]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[16]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[17]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[18]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[19]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[20]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[21]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[22]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[23]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[24]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[25]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[26]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[27]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[28]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[29]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[30]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "minutes[31]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[0]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[1]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[2]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[3]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[4]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[5]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[6]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[7]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[8]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[9]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[10]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[11]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[12]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[13]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[14]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[15]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[16]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[17]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[18]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[19]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[20]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[21]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[22]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[23]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[24]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[25]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[26]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[27]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[28]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[29]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[30]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+    Warning (13010): Node "hours[31]~synth" File: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/Quartus/Timer/timer.vhd Line: 23
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 304 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 0 output pins
+    Info (21060): Implemented 96 bidirectional pins
+    Info (21061): Implemented 206 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 195 warnings
+    Info: Peak virtual memory: 4798 megabytes
+    Info: Processing ended: Wed Oct  2 18:55:42 2024
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:43
+
+

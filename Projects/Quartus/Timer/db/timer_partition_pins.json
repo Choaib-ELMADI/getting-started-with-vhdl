@@ -1,0 +1,401 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seconds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[8]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[9]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[10]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[11]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[12]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[13]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[14]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[15]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[16]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[17]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[18]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[19]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[20]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[21]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[22]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[23]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[24]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[25]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[26]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[27]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[28]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[29]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[30]",
+					"strict" : false
+				},
+				{
+					"name" : "seconds[31]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[0]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[1]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[2]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[3]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[4]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[5]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[6]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[7]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[8]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[9]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[10]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[11]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[12]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[13]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[14]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[15]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[16]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[17]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[18]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[19]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[20]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[21]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[22]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[23]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[24]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[25]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[26]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[27]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[28]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[29]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[30]",
+					"strict" : false
+				},
+				{
+					"name" : "minutes[31]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[9]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[10]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[11]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[12]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[13]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[14]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[15]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[16]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[17]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[18]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[19]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[20]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[21]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[22]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[23]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[24]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[25]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[26]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[27]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[28]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[29]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[30]",
+					"strict" : false
+				},
+				{
+					"name" : "hours[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "nRst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
