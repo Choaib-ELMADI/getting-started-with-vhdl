@@ -1,0 +1,229 @@
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer.vhd(43): near "if": (vcom-1576) expecting ';'.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer.vhd(54): near "else": (vcom-1576) expecting END.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer.vhd(57): near "if": (vcom-1576) expecting PROCESS.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer_tb
+-- Compiling architecture sim of timer_tb
+-- Loading entity timer
+
+
+vsim -gui work.timer_tb
+vsim -gui work.timer_tb 
+Start time: 18:12:00 on Oct 02,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.timer_tb(sim)
+Loading work.timer(rtl)
+WARNING: No extended dataflow license exists
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/timer_tb/clk \
+sim:/timer_tb/seconds \
+sim:/timer_tb/minutes \
+sim:/timer_tb/hours
+run
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/timer_tb/i_timer/clk \
+sim:/timer_tb/i_timer/nRst \
+sim:/timer_tb/i_timer/seconds \
+sim:/timer_tb/i_timer/minutes \
+sim:/timer_tb/i_timer/hours \
+sim:/timer_tb/i_timer/periods
+run
+restart
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer_tb
+-- Compiling architecture sim of timer_tb
+-- Loading entity timer
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.timer_tb(sim)
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer_tb
+-- Compiling architecture sim of timer_tb
+-- Loading entity timer
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.timer_tb(sim)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+restart
+run
+run
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/Timer/timer_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer_tb
+-- Compiling architecture sim of timer_tb
+-- Loading entity timer
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.timer_tb(sim)
+run
+restart
+run
+restart
+run
+run
+run
+run
+End time: 18:50:29 on Oct 02,2024, Elapsed time: 0:38:29
+Errors: 0, Warnings: 1

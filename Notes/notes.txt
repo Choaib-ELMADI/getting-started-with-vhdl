@@ -9,3 +9,8 @@
     * All signals that are being read within a process must be on the sensitivity list.
     * Sensitivity list and "wait on" statement serve the same purposes.
     * VHDL simulation works in terms of "delta cycles", where time is divided into tiny, discrete steps, and during each step, events are evaluated.
+
+->> Tracking Time in VHDL Designs:
+    * The wait for statement is used for delaying time in simulation, but cannot be used in production modules.
+    * In production designs, time is tracked by counting clock cycles.
+    * Every digital design operates with a clock signal oscillating at a known frequency (ex: 100 MHz), allowing time measurement by counting clock cycles (ex: 100 million clock cycles = 1 second).
