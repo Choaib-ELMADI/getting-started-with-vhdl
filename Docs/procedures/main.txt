@@ -1,0 +1,21 @@
+-> A procedure is a type of subprogram in VHDL that helps avoid code repetition.
+-> Procedures can be declared in any declarative region, with scope limited to the architecture, package, or process where they're defined.
+-> When called, a procedure behaves as if its code is inserted at the call site.
+-> Procedures do not return a value like functions, but can return values through "out" or "inout" signals in the parameter list.
+
+-> Basic syntax for creating a procedure:
+    procedure <procedure_name>
+        (
+            signal|variable|constant <name_1> : in|out|inout <type>;
+            signal|variable|constant <name_2> : in|out|inout <type>;
+            ...
+        ) is
+        <declarations_for_use_within_the_procedure>
+    begin
+
+        <code_performed_by_the_procedure_here>
+
+    end procedure;
+
+-> A procedure's parameter list defines its inputs and outputs and can include signals, variables, and constants.
+-> Procedures can contain wait statements, making them useful in testbenches for simulating interfaces or checking outputs from the device under test (DUT).
