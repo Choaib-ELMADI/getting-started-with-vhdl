@@ -1,0 +1,7 @@
+-> A finite-state machine (FSM) is a mechanism where the output depends on both the current and past states of input and output values.
+-> FSMs are commonly used in VHDL to solve time-dependent algorithms or to implement logic similar to a computer program on an FPGA.
+-> FSMs are clocked processes where a state signal controls the outputs and tracks the machine's current state, serving as internal memory.
+-> States in VHDL can be represented using an enumerated type, which is a custom list of possible state values.
+
+-> Syntax for enumerated types:
+    type <type_name> is (<state_name_1>, <state_name_2>, ...);

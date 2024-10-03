@@ -1,0 +1,29 @@
+Compile of traffic_lights.vhd was successful.
+Compile of traffic_lights_tb.vhd was successful.
+Compile of traffic_lights.vhd was successful.
+Compile of traffic_lights_tb.vhd was successful.
+vsim -gui work.traffic_lights_tb
+vsim -gui work.traffic_lights_tb 
+Start time: 21:23:34 on Oct 03,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.traffic_lights_tb(sim)
+Loading work.traffic_lights(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/traffic_lights_tb/i_traffic_lights/clk \
+sim:/traffic_lights_tb/i_traffic_lights/nRst \
+sim:/traffic_lights_tb/i_traffic_lights/NORTH_RED \
+sim:/traffic_lights_tb/i_traffic_lights/NORTH_YELLOW \
+sim:/traffic_lights_tb/i_traffic_lights/NORTH_GREEN \
+sim:/traffic_lights_tb/i_traffic_lights/WEST_RED \
+sim:/traffic_lights_tb/i_traffic_lights/WEST_YELLOW \
+sim:/traffic_lights_tb/i_traffic_lights/WEST_GREEN
+run 10 sec
+run 1 min
+run 2 min
+End time: 21:29:47 on Oct 03,2024, Elapsed time: 0:06:13
+Errors: 0, Warnings: 5
