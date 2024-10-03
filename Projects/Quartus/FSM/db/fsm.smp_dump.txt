@@ -1,0 +1,11 @@
+
+State Machine - |fsm|state
+Name state.STOP_WEST state.WEST state.WEST_READY state.WEST_NEXT state.STOP_NORTH state.NORTH state.NORTH_READY state.NORTH_NEXT 
+state.NORTH_NEXT 0 0 0 0 0 0 0 0 
+state.NORTH_READY 0 0 0 0 0 0 1 1 
+state.NORTH 0 0 0 0 0 1 0 1 
+state.STOP_NORTH 0 0 0 0 1 0 0 1 
+state.WEST_NEXT 0 0 0 1 0 0 0 1 
+state.WEST_READY 0 0 1 0 0 0 0 1 
+state.WEST 0 1 0 0 0 0 0 1 
+state.STOP_WEST 1 0 0 0 0 0 0 1 

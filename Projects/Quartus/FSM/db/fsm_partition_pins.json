@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NORTH_RED",
+					"strict" : false
+				},
+				{
+					"name" : "NORTH_YELLOW",
+					"strict" : false
+				},
+				{
+					"name" : "NORTH_GREEN",
+					"strict" : false
+				},
+				{
+					"name" : "WEST_RED",
+					"strict" : false
+				},
+				{
+					"name" : "WEST_YELLOW",
+					"strict" : false
+				},
+				{
+					"name" : "WEST_GREEN",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "nRst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
