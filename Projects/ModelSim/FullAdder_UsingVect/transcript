@@ -1,0 +1,21 @@
+Compile of full_adder.vhd failed with 1 errors.
+Compile of full_adder.vhd was successful.
+Compile of full_adder_tb.vhd was successful.
+vsim -gui work.full_adder_tb
+vsim -gui work.full_adder_tb 
+Start time: 15:24:22 on Oct 05,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.full_adder_tb(sim)
+Loading work.full_adder(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/full_adder_tb/a_tb \
+sim:/full_adder_tb/b_tb \
+sim:/full_adder_tb/s_tb
+run
+End time: 15:31:32 on Oct 05,2024, Elapsed time: 0:07:10
+Errors: 0, Warnings: 7
