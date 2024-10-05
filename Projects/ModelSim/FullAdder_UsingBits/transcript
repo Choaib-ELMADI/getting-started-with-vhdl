@@ -1,0 +1,45 @@
+Compile of full_adder.vhd was successful.
+Compile of full_adder_tb.vhd was successful.
+vsim -gui work.full_adder_tb
+vsim -gui work.full_adder_tb 
+Start time: 13:00:32 on Oct 05,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading work.full_adder_tb(sim)
+Loading work.full_adder(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/full_adder_tb/a_tb \
+sim:/full_adder_tb/b_tb \
+sim:/full_adder_tb/prev_c_tb \
+sim:/full_adder_tb/s_tb \
+sim:/full_adder_tb/c_tb
+run
+Compile of full_adder_tb.vhd was successful.
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.full_adder_tb(sim)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/full_adder_tb/number_1 \
+sim:/full_adder_tb/number_2 \
+sim:/full_adder_tb/sum \
+sim:/full_adder_tb/carry
+run
+Compile of full_adder_tb.vhd was successful.
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.full_adder_tb(sim)
+run
+run
+Compile of full_adder_tb.vhd was successful.
+run
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.full_adder_tb(sim)
+run
+End time: 13:25:56 on Oct 05,2024, Elapsed time: 0:25:24
+Errors: 0, Warnings: 1
