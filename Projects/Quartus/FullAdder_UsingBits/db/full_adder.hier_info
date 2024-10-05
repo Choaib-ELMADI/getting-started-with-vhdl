@@ -1,0 +1,11 @@
+|full_adder
+a => s.IN0
+a => c.IN0
+b => s.IN1
+b => c.IN1
+prev_c => s.IN1
+prev_c => c.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
