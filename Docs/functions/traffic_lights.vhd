@@ -1,0 +1,135 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity traffic_lights is
+    generic (CLOCK_FREQUENCY : integer);
+    port (
+        clk          : in  std_logic;
+        nRst         : in  std_logic;
+
+        NORTH_RED    : out std_logic;
+        NORTH_YELLOW : out std_logic;
+        NORTH_GREEN  : out std_logic;
+        WEST_RED     : out std_logic;
+        WEST_YELLOW  : out std_logic;
+        WEST_GREEN   : out std_logic
+    );
+end entity;
+
+architecture rtl of traffic_lights is
+    type t_state is (NORTH_NEXT, NORTH_READY, NORTH, STOP_NORTH, WEST_NEXT, WEST_READY, WEST, STOP_WEST);
+    
+    signal state   : t_state;
+    signal counter : integer range 0 to CLOCK_FREQUENCY * 60;
+
+    function val_counter(minutes: integer := 0; seconds: integer := 0) return integer is
+        variable total_seconds: integer;
+    begin
+
+        total_seconds := seconds + minutes * 60;
+        return total_seconds * CLOCK_FREQUENCY - 1;
+
+    end function;
+begin
+
+    process(clk) is
+
+        impure function counter_expired(minutes: integer := 0; seconds: integer := 0) return boolean is
+        begin
+
+            if counter = val_counter(minutes, seconds) then
+                counter <= 0;
+                return true;
+            else
+                return false;
+            end if;
+
+        end function;
+
+    begin
+
+        if rising_edge(clk) then
+            if nRst = '0' then
+                state        <= NORTH_NEXT;
+                counter      <=   0;
+                NORTH_RED    <= '1';
+                NORTH_YELLOW <= '0';
+                NORTH_GREEN  <= '0';
+                WEST_RED     <= '1';
+                WEST_YELLOW  <= '0';
+                WEST_GREEN   <= '0';
+            else
+                NORTH_RED    <= '0';
+                NORTH_YELLOW <= '0';
+                NORTH_GREEN  <= '0';
+                WEST_RED     <= '0';
+                WEST_YELLOW  <= '0';
+                WEST_GREEN   <= '0';
+                counter      <= counter + 1;
+
+                case state is
+                    when NORTH_NEXT  =>
+                        NORTH_RED    <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= NORTH_READY;
+                        end if;
+
+                    when NORTH_READY =>
+                        NORTH_RED    <= '1';
+                        NORTH_YELLOW <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= NORTH;
+                        end if;
+
+                    when NORTH       =>
+                        NORTH_GREEN  <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(minutes => 1) then
+                            state    <= STOP_NORTH;
+                        end if;
+
+                    when STOP_NORTH  =>
+                        NORTH_YELLOW <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= WEST_NEXT;
+                        end if;
+
+                    when WEST_NEXT   =>
+                        NORTH_RED    <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= WEST_READY;
+                        end if;
+
+                    when WEST_READY  =>
+                        NORTH_RED    <= '1';
+                        WEST_YELLOW  <= '1';
+                        WEST_RED     <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= WEST;
+                        end if;
+
+                    when WEST        =>
+                        NORTH_RED    <= '1';
+                        WEST_GREEN   <= '1';
+                        if counter_expired(minutes => 1) then
+                            state    <= STOP_WEST;
+                        end if;
+
+                    when STOP_WEST   =>
+                        NORTH_RED    <= '1';
+                        WEST_YELLOW  <= '1';
+                        if counter_expired(seconds => 5) then
+                            state    <= NORTH_NEXT;
+                        end if;
+                end case;
+            end if;
+        end if;
+
+    end process;
+
+end architecture;

@@ -1,0 +1,18 @@
+-> Functions in VHDL are subprograms that implement frequently used algorithms, take input values, and always return a value.
+-> Unlike procedures, functions cannot contain wait statements, meaning they consume zero simulation time.
+-> There are two types of functions in VHDL, pure and impure:
+    * A pure function doesn't modify or read external signals, always returning the same value with the same arguments.
+    * An impure function may interact with external signals and may have side effects.
+
+-> Syntax for a function:
+    [pure | impure] function <function_name> (
+        <parameter_name>: <parameter_type> := <default_value>;
+        ...
+    ) return <return_type> is
+        <constant_or_variable_declaration>
+    begin
+        <code_performed_by_the_function>
+        return <value>;
+    end function;
+
+-> Functions must always return a value and cannot modify parameters since all parameters are treated as constants.
