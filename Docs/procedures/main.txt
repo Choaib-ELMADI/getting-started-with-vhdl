@@ -17,5 +17,10 @@
 
     end procedure;
 
+-> If no "signal|variable|constant" is provided, by default they are considered "constants".
+-> If no direction "in|out|inout" is specified, they are treated as "in" parameters.
+
 -> A procedure's parameter list defines its inputs and outputs and can include signals, variables, and constants.
 -> Procedures can contain wait statements, making them useful in testbenches for simulating interfaces or checking outputs from the device under test (DUT).
+-> If a procedure is declared within an architecture, it cannot drive external signals since no signals exist in its scope at compile time. However, procedures declared within a process can access any signals visible to the process.
+-> Procedures are often more flexible than functions in cases where external signal manipulation is required, as functions must return a value and cannot directly drive signals.
