@@ -1,0 +1,382 @@
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Target type std.STANDARD.INTEGER in variable assignment is different from expression type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Bad right hand side (infix expression) in variable assignment.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Bad right hand side (infix expression) in variable assignment.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(26): near "|": (vcom-1576) expecting GENERATE or THEN or USE.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Bad right hand side (infix expression) in variable assignment.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Bad right hand side (infix expression) in variable assignment.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Bad right hand side (infix expression) in variable assignment.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): Target type std.STANDARD.INTEGER in variable assignment is different from expression type ieee.NUMERIC_STD.UNRESOLVED_SIGNED.
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.SIGNED' (non-numeric to array).
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.SIGNED' (non-numeric to array).
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): near "when": (vcom-1576) expecting ')'.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): near "when": (vcom-1576) expecting ')'.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(23): near "when": (vcom-1576) expecting ')'.
+** Note: C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector.vhd(34): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector_tb
+-- Compiling architecture sim of bits_detector_tb
+-- Loading entity bits_detector
+
+
+vsim -gui work.bits_detector_tb
+vsim -gui work.bits_detector_tb 
+Start time: 10:36:43 on Oct 06,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.bits_detector_tb(sim)
+Loading work.bits_detector(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/bits_detector_tb/i_bits_detector/i \
+sim:/bits_detector_tb/i_bits_detector/o
+run
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector(rtl)
+run
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector(rtl)
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector_tb
+-- Compiling architecture sim of bits_detector_tb
+-- Loading entity bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector_tb(sim)
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Downloads/D.I.F.Y/7. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/2And3BitsDetector/bits_detector_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector_tb
+-- Compiling architecture sim of bits_detector_tb
+-- Loading entity bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector_tb(sim)
+run
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/bits_detector_tb/i_tb \
+sim:/bits_detector_tb/o_tb
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector(rtl)
+run
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+restart
+** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+Loading work.bits_detector(rtl)
+run
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(23): near "(": (vcom-1576) expecting ')'.
+** Note: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(36): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(26): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+** Error: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(26): Bad right hand side (infix expression) in variable assignment.
+** Note: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(39): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+** Error: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(26): Target type std.STANDARD.INTEGER in variable assignment is different from expression type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED.
+** Error: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(26): (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_ULOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+** Note: C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd(39): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\7. Electronics\2. FPGA\Getting Started with VHDL\Projects\ModelSim\2And3BitsDetector\bits_detector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bits_detector
+-- Compiling architecture rtl of bits_detector
+
+
+End time: 11:20:29 on Oct 06,2024, Elapsed time: 0:43:46
+Errors: 0, Warnings: 5
