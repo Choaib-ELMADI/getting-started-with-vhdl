@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Oct 20 21:26:13 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : four_bits_counter
+Top-level Entity Name : four_bits_counter
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 5 / 49,760 ( < 1 % )
+    Total combinational functions : 5 / 49,760 ( < 1 % )
+    Dedicated logic registers : 4 / 49,760 ( < 1 % )
+Total registers : 4
+Total pins : 6 / 360 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

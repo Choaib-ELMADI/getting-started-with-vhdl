@@ -1,0 +1,15 @@
+|four_bits_counter
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+n_reset => count[0].ACLR
+n_reset => count[1].ACLR
+n_reset => count[2].ACLR
+n_reset => count[3].ACLR
+counter[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
