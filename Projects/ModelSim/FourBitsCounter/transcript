@@ -1,0 +1,18 @@
+vsim -gui work.four_bits_counter_tb
+vsim -gui work.four_bits_counter_tb 
+Start time: 21:20:15 on Oct 20,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading ieee.numeric_std(body)
+Loading work.four_bits_counter_tb(sim)
+Loading work.four_bits_counter(rtl)
+view -new wave
+-new not supported on PE
+add wave -position insertpoint  \
+sim:/four_bits_counter_tb/clk \
+sim:/four_bits_counter_tb/n_reset \
+sim:/four_bits_counter_tb/counter
+run
+End time: 21:21:33 on Oct 20,2024, Elapsed time: 0:01:18
+Errors: 0, Warnings: 1
