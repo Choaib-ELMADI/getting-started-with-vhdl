@@ -1,0 +1,119 @@
+Compile of one_bit_adder.vhd was successful.
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor
+-- Compiling architecture arch of four_bits_adder_subtractor
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor_tb
+-- Compiling architecture sim of four_bits_adder_subtractor_tb
+
+
+vsim -gui work.four_bits_adder_subtractor_tb
+vsim -gui work.four_bits_adder_subtractor_tb 
+Start time: 08:48:27 on Nov 30,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading work.four_bits_adder_subtractor_tb(sim)
+Loading work.four_bits_adder_subtractor(arch)
+Loading work.one_bit_adder(arch)
+add wave -position insertpoint  \
+sim:/four_bits_adder_subtractor_tb/A \
+sim:/four_bits_adder_subtractor_tb/B \
+sim:/four_bits_adder_subtractor_tb/Sum \
+sim:/four_bits_adder_subtractor_tb/ovf \
+sim:/four_bits_adder_subtractor_tb/cout
+run
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor
+-- Compiling architecture arch of four_bits_adder_subtractor
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(29): Illegal concurrent statement.
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(35): (vcom-1136) Unknown identifier "Sum".
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(35): (vcom-1454) Formal "s" of mode OUT cannot be associated with an expression.
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(36): (vcom-1136) Unknown identifier "Sum".
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(36): (vcom-1454) Formal "s" of mode OUT cannot be associated with an expression.
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(37): (vcom-1136) Unknown identifier "Sum".
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(37): (vcom-1454) Formal "s" of mode OUT cannot be associated with an expression.
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(38): (vcom-1136) Unknown identifier "Sum".
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(38): (vcom-1454) Formal "s" of mode OUT cannot be associated with an expression.
+** Note: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(43): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor
+-- Compiling architecture arch of four_bits_adder_subtractor
+** Error: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(29): Illegal concurrent statement.
+** Note: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(43): VHDL Compiler exiting
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor
+-- Compiling architecture arch of four_bits_adder_subtractor
+** Warning: C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor
+-- Compiling architecture arch of four_bits_adder_subtractor
+
+
+vcom -work work -2002 -explicit -stats=none {C:/Users/Choaib ELMADI/Documents/D.I.F.Y/2. Electronics/2. FPGA/Getting Started with VHDL/Projects/ModelSim/FourBitsAdderSubtractor/four_bits_adder_subtractor_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity four_bits_adder_subtractor_tb
+-- Compiling architecture sim of four_bits_adder_subtractor_tb
+
+
+vsim -gui work.four_bits_adder_subtractor_tb
+End time: 09:11:41 on Nov 30,2024, Elapsed time: 0:23:14
+Errors: 0, Warnings: 15
+vsim -gui work.four_bits_adder_subtractor_tb 
+Start time: 09:11:41 on Nov 30,2024
+Loading std.standard
+Loading std.textio(body)
+Loading ieee.std_logic_1164(body)
+Loading work.four_bits_adder_subtractor_tb(sim)
+Loading work.four_bits_adder_subtractor(arch)
+Loading work.one_bit_adder(arch)
+add wave -position insertpoint  \
+sim:/four_bits_adder_subtractor_tb/A \
+sim:/four_bits_adder_subtractor_tb/B \
+sim:/four_bits_adder_subtractor_tb/op \
+sim:/four_bits_adder_subtractor_tb/Res \
+sim:/four_bits_adder_subtractor_tb/ovf \
+sim:/four_bits_adder_subtractor_tb/cout
+restart
+run
+GetModuleFileName: The specified module could not be found.
+
+
+quit -sim
+End time: 09:20:08 on Nov 30,2024, Elapsed time: 0:08:27
+Errors: 0, Warnings: 1
