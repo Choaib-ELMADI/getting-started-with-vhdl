@@ -26,7 +26,30 @@ This guide explains how to visualize modules using Quartus, a popular FPGA desig
 - In **Project Navigator**, double-click the module name to view its content.
 - In **Tasks**, select **Compilation** and double-click **Compile Design** to compile the HDL code.
 
-### 3. Visualize the Generated Circuit
+### 3. Visualize Signals in the Simulation Waveform Editor
+
+- Ensure the correct path to **modelsim.exe** is set by navigating to: **Tools > Options... > EDA Tool Options > ModelSim**.
+- Click **File > New...**, then under **Verification/Debugging Files**, select **University Program VWF**.
+- Click **Edit** and set both the **Set End Time...** and **Grid Size...**.
+- Click **Edit > Insert > Insert Node or Bus...**.
+- Click **Node Finder**.
+- Click **List**.
+- Add the target nodes and buses.
+- Click **OK**.
+- Click **OK** again.
+- Set the initial values for the input signals using the icons in the toolbar.
+- Run simulation:
+  - **For Functional Simulation**:
+    - Click **Simulation > Simulation Settings**.
+    - Remove the term **"-novopt"** from the ModelSim Script to avoid errors.
+    - Click **Save**.
+    - Click **Run Functional Simulation** icon.
+
+### 4. Analyze the Results
+
+- Observe signal behavior in the **Simulation Waveform Editor** window.
+
+### 5. Visualize the Generated Circuit
 
 - Navigate to: **Tools > Netlist Viewers > RTL Viewer** (or any other viewer).
 
