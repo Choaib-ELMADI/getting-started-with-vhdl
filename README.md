@@ -44,3 +44,16 @@ To run and simulate VHDL code, you will need the following tools. Below are link
   - Under **Devices**, download: **MAX® 10 FPGA device support**
 
 Place all the downloaded files in the same directory, then launch `Quartus Prime Lite` and `ModelSim` to begin your workflow.
+
+## How to Use Simulation Tools
+
+Once you have installed **ModelSim** and **Quartus Prime Lite**, you can follow the guides below to learn how to set up and run simulations:
+
+- **Using ModelSim**: [Step-by-step guide](./Projects/ModelSim/README.md)
+- **Using Quartus Prime Lite**: [Step-by-step guide](./Projects/Quartus/README.md)
+
+These guides cover how to:
+
+- Set up a VHDL project
+- Write and compile testbenches
+- Run simulations and analyze waveforms
